@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #525ea7;
+    width: 100%;
+}
+.wrapper{
+    width: 84%;
+    margin: 0 auto;
+    padding: 3% 7%;
+}
+.header__content{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user{
+    display: flex;
+    align-items: center;
+
+}
+.avatar{
+    height: 14%;
+    width: 14%;
+    margin-right: 3%;
+}
+.contacts{}
+.user_name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+
+}
+.user_pro{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875em;
+}
+.contacts__item{
+    display: flex;
+}
+.contacts__item>p{
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+.contacts__pic{
+    height: 8%;
+    width: 8%;
+
+}
