@@ -1,4 +1,4 @@
-        * {
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -140,6 +140,13 @@
         width: 70%;
     }
     
+    .Interests__item__text {
+        font-size: 29px;
+        margin-top: 16px;
+        font-family: open sans;
+        letter-spacing: 1px;
+    }
+    
     .portfolio {
         display: flex;
         flex-direction: column;
@@ -163,9 +170,35 @@
     .portfolio__item {
         box-shadow: 0 0 88px rgba(115, 135, 135, 0.1);
         margin: 0 auto;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'open sans';
+        padding-bottom: 35px;
+        margin-bottom: 24px;
     }
     
     .grey_box {
         background-color: #d6d6d6;
         width: 336px;
         height: 229px;
+    }
+    
+    .subtext {
+        margin-top: 31px;
+        letter-spacing: 0.3px;
+        line-height: 1.5;
+    }
+    
+    .blue_text {
+        font-weight: 600;
+        color: #525ea7;
+    }
+    
+    .footer {
+        padding: 1% 10%;
+        color: #fff;
+        background-color: #344eff;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
