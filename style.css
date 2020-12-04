@@ -9,6 +9,11 @@
         height: 100%;
     }
     
+    .a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
     .app {
         display: flex;
         flex-direction: column;
@@ -152,6 +157,7 @@
         flex-direction: column;
         margin-left: 3px;
         width: 100%;
+        margin-left: 40px;
     }
     
     .portfolio__content {
@@ -201,4 +207,53 @@
         display: flex;
         align-items: baseline;
         justify-content: space-between;
+    }
+    
+    .work {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 70px;
+        justify-content: space-between;
+    }
+    
+    .work_item1 {
+        font-family: "Open Sans";
+        line-height: 1.6;
+        font-size: 1.6em;
+        margin-top: 24px;
+        letter-spacing: -0.3px;
+    }
+    
+    .work__item {
+        font-family: 'opensans';
+        font-size: 1.6em;
+        max-width: 50%;
+        margin: 50px;
+    }
+    
+    .scills {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .skills_item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .brief_text {
+        font-family: "Open Sans";
+        line-height: 3.6;
+        font-size: 1.4em;
+        font-weight: 600;
+        letter-spacing: -0.3px;
+    }
+    
+    .skills_item>.brief {
+        height: 120px;
+        width: 120px;
     }
